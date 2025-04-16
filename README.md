@@ -5,7 +5,8 @@
 3. Click the version
 4. When selecting interpreter, click "Create virtual environment"
 5. If there is already an active venv, click "delete and recreate"
-6. Select the appropriate version of Python (probably 3.11+)
-7. Select the requirements.txt and click "ok"
-8. Wait for the venv to build
-9. Done!
+6. Select .venv, NOT conda
+7. Select the appropriate version of Python (probably 3.11+)
+8. Select the requirements.txt and click "ok"
+9. Wait for the venv to build
+10. Done!
