@@ -42,9 +42,9 @@ def main():
     # Set up the Mistral v0.3 model
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     device = "cuda"
-    cache_dir = "/home/as9df/.cache/huggingface/hub/Mistral-7B-Instruct-v0.3"
-    tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3", cache_dir=cache_dir)
-    model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3", cache_dir=cache_dir).to(device)
+    # cache_dir = "/home/as9df/.cache/huggingface/hub/Mistral-7B-Instruct-v0.3"
+    tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3")
+    model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3").to(device)
     data = gen_logicqa()
     samples = 5
     prompts = []

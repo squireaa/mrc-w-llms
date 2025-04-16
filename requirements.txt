@@ -1,5 +1,8 @@
-pandas
 transformers
+pandas
 nltk
+protobuf
+sentencepiece
+torch
 pyarrow
 fastparquet
