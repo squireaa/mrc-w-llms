@@ -1,0 +1,16 @@
+fire
+pandas
+pylint
+scikit-learn
+torch
+torchvision
+torchaudio
+transformers
+nltk
+sentencepiece
+protobuf
+openai
+pyarrow
+fastparquet
+tensorflow
+keras-preprocessing
